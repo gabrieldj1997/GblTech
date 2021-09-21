@@ -1,5 +1,0 @@
----
-deployment:
-  tasks:
-    - export DEPLOYPATH=/home1/gbltec01/gbltech
-    - /bin/cp -R images DEPLOYPATH
