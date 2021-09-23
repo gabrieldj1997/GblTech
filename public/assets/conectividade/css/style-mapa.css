@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.mapActive{fill:#003399 !important}
+#map {transform: scale(1.0);display: table !important;margin: 0 auto;}
+#map path { fill:#0094d9 }
+#map text { fill:#fff; font:12px Arial-BoldMT, sans-serif; cursor:pointer }
+#map a{ text-decoration:none }
+#map a:hover { cursor:pointer; text-decoration:none }
+#map a:hover path{ fill:#003399 !important }
+#map .circle { fill:#66ccff }
+#map a:hover .circle { fill:#003399 !important; cursor:pointer }
+
+html,body {
+  height: 100%;
+}
+.container-body {
+  margin-top: 3vh;
+  min-height: 58%;
+}
+.custom-col {
+  margin-bottom: 20px;
+}
+#info-state {
+  display: none;
+}

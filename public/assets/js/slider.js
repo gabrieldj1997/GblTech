@@ -1,55 +1,4 @@
-<!doctype html>
-<html lang="en">
 
-@yield('head')
-
-<body>
-
-@yield('header')
-
-@yield('slider')
-
-@yield('about-me')
-
-@yield('galery')
-
-@yield('mobile')
-
-@yield('clients')
-
-@yield('services')
-
-@yield('cadaster')
-
-@yield('footer')
-
-@yield('button-to-top')
-
-<script>
-
-	window.onscroll = function () {
-		scrollFunction()
-	};
-
-	function scrollFunction() {
-		if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-			document.getElementById("movetop").style.display = "block";
-		} else {
-			document.getElementById("movetop").style.display = "none";
-		}
-	}
-
-
-	function topFunction() {
-		document.body.scrollTop = 0;
-		document.documentElement.scrollTop = 0;
-	}
-</script>
-
-<script src="assets/js/jquery-3.3.1.min.js"></script>
-
-<script src="assets/js/momentum-slider.min.js"></script>
-<script>
   (function () {
 
     var slidersContainer = document.querySelector('.sliders-container');
@@ -157,18 +106,3 @@
     });
 
   })();
-</script>
-
-<script src="assets/js/bootstrap.min.js"></script>
-
-<script>
-  $(function () {
-    $('.navbar-toggler').click(function () {
-      $('body').toggleClass('noscroll');
-    })
-  });
-</script>
-
-
-</body>
-</html>

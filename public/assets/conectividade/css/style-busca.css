@@ -1,0 +1,86 @@
+
+* {
+	margin: 0;
+	padding: 0;
+}
+input::placeholder { 
+	opacity: 1;
+	color:white;
+  }
+html, body {
+	height: 100%;
+}
+.container{
+	margin-top: 20px;
+	min-height: 56%;
+}
+.custom-col {
+	margin-bottom: 20px;
+}
+#resultado-bolsa {
+	display: none;
+}
+#resultado-auxilio {
+	display: none;
+}
+#auxilio-info{
+	max-height: 50vh;
+    overflow: auto;
+}
+#btn-consultar{
+	background-color: #0094d9;
+	border-color:#0094d9;
+	margin-top:5px;
+	color:#ffffff;
+	margin-top: 60px;
+}
+.buscaInput{
+	width: 80%;
+	background-color: #0094d9;
+	border-color: #0094d9; 
+	color:#ffffff;
+	border: none;
+	margin: 10px;
+}
+h5 {
+	font-size: large;
+}
+.aux-result-card{
+	text-align: left;
+    border-style: ridge;
+    border-color: azure;
+    padding: 10px;
+	margin: 0px 0px 10px 0px;
+}
+.divLoader{
+	background: rgba(70,70,70,0.7);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+}
+.loader {
+	position: absolute;
+    left: 37%;
+    top: 23%;
+    border: 0px solid #f3f3f3;
+    border-radius: 58%;
+    border-top: 6px solid #3498db;
+    width: 400px;
+    height: 400px;
+    -webkit-animation: spin 1s linear infinite;
+    animation: spin 1s linear infinite;  
+  }
+  
+@-webkit-keyframes spin {
+	0% {
+	  -webkit-transform: rotate(0deg);
+	  transform: rotate(0deg);
+	}
+	100% {
+	  -webkit-transform: rotate(360deg);
+	  transform: rotate(360deg);
+	}
+  }
+
+  

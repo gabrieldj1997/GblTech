@@ -1,0 +1,20 @@
+
+input::placeholder { 
+  opacity: 1;
+  color:white;
+}
+#datepicker{
+  width: 100%;
+}
+.cardRegiao{
+  margin: 5px;
+  align-self: center;
+  width: 100%; 
+}
+.cardItemRegiao{
+  width: 100%;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  text-indent: 1px;
+  text-overflow: '';   
+}
