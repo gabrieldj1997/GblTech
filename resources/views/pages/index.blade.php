@@ -1,11 +1,11 @@
 <!doctype html>
 <html lang="en">
 
-@include('..\layout.structure.head', ["title" => "GBL Tech - Inovações"])
+@include('layout.structure.head', ["title" => "GBL Tech - Inovações"])
 
 <body>
 
-	@includeIf('..\layout.structure.header', ["text" => " Bem vindo", "position" => true])
+	@includeIf('layout.structure.header', ["text" => " Bem vindo", "position" => true])
 
 	<div class="w3l-banner-slider">
 		<div class="wrapper-container">
@@ -146,7 +146,7 @@
 		<span class="fa fa-angle-up"></span>
 	</button>
 
-	@includeIf('..\layout.structure.footer')
+	@includeIf('layout.structure.footer')
 
 	<script>
 		window.onscroll = function() {

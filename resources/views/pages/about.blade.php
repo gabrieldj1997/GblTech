@@ -9,7 +9,7 @@
 
 <body>
 
-@includeIf('..\layout.structure.header', ["text" => " Sobre Gabriel", "position" => false])
+@includeIf('layout.structure.header', ["text" => " Sobre Gabriel", "position" => false])
 
 
     <div class="w3l-about py-5">
