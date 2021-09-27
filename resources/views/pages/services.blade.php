@@ -4,70 +4,29 @@
 
 <head>
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <title>Eccentric portfolio - personal website template | Services : W3layouts</title>
-
-
-    <link href="https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap" rel="stylesheet">
-
-
-    <link rel="stylesheet" href="assets/css/style-starter.css">
+@include('..\layout.structure.head', ["title" => "GBL Tech - Serviços"])
 
 </head>
 
 <body>
 
-    <div class="inner-banner">
-        <div class="w3l-header inner-w3l-header" id="home">
-            <div class="container">
-                <nav class="navbar navbar-expand-lg navbar-dark pl-0 pr-0">
-                    <a class="navbar-brand m-0 text-primary" href="/"><span class="fa fa-gamepad"></span>
-                        Eccentric
-                    </a>
-
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav ml-auto">
-                            <li class="nav-item mr-lg-4">
-                                <a class="nav-link pl-0 pr-0 font-weight-bold" href="/">Home <span
-                                        class="sr-only">(current)</span></a>
-                            </li>
-                            <li class="nav-item mr-lg-4">
-                                <a class="nav-link pl-0 pr-0 font-weight-bold" href="/about">About</a>
-                            </li>
-                            <li class="nav-item mr-lg-4 active">
-                                <a class="nav-link pl-0 pr-0 font-weight-bold" href="/services">Services</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link pl-0 pr-0 font-weight-bold" href="contact.html">Contact</a>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
-            </div>
-        </div>
-    </div>
+    @include('layout.structure.header', ["text" => "Serviços", "position" => false])
 
     <div class="w3-services py-5" id="services">
         <div class="container py-lg-3">
             <div class="title-section">
-                <h3 class="main-title-w3">My Services</h3>
+                <h3 class="main-title-w3">Meus Serviços</h3>
                 <div class="title-line">
                 </div>
             </div>
             <div class="row w3-services-grids mt-lg-5 mt-4">
                 <div class="col-lg-5 w3-services-left-grid">
-                    <h4>What i do</h4>
-                    <p>Lorem ipsum dolor sit amet, init sed adipisci ngelit. In a et euismod faucibus quam, a sodales er
-                        osplacerat vitae. Sed pretium fermentum luctus.Cras sodales nisl vitae dolor facilisis dapibus.
-                        Integer consectetur in velit eget viverra. Quisque vulputate a nisi blandit molestie. Aenean sit
-                        amet consequat risus, eget egestas est.Nullam eu turpis diam. Ut ac erat vestibulum, laoreet ex
-                        faucibus, iaculis ex. Donec at dolor volutpat, laoreet nisi. </p>
+                    <h4>O que eu faço?</h4>
+                    <p>Eu trago a solução para seus problemas para aplicação web ou mobile. Crio aplicação de tarefas automatizadas
+                        como tarefas repetidas por exemplo, nunca mais se preocupe em preencher uma tabela a mão, aplicativos que captura dados
+                        e os centraliza e cria gráficos automaticamente. Não se preocupe mais em deixar seus clientes esperando por uma resposta
+                        quando se pode ter um BOT para te auxiliar. Traga-me seu problema e eu lhe trago a solução!
+                    </p>
                     <div class="more">
                         <a href="#more" class="btn-primary btn primary-btn-style mt-lg-5 mt-4">Know more</a>
                     </div>
@@ -276,28 +235,7 @@
         </div>
     </div>
 
-    <section class="w3l-footers-1">
-        <div class="footer bg-secondary">
-            <div class="container">
-                <div class="footer-content">
-                    <div class="row">
-                        <div class="col-lg-8 footer-left">
-                            <p class="m-0">© Copyright 2020 Eccentric Portfolio. Design by <a
-                                    href="https://w3layouts.com">W3layouts</a></p>
-                        </div>
-                        <div class="col-lg-4 footer-right text-lg-right text-center mt-lg-0 mt-3">
-                            <ul class="social m-0 p-0">
-                                <li><a href="#facebook"><span class="fa fa-facebook"></span></a></li>
-                                <li><a href="#linkedin"><span class="fa fa-linkedin"></span></a></li>
-                                <li><a href="#instagram"><span class="fa fa-instagram"></span></a></li>
-                                <li><a href="#twitter"><span class="fa fa-twitter"></span></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    @include('layout.structure.footer')
 
     <button onclick="topFunction()" id="movetop" class="bg-primary" title="Go to top">
         <span class="fa fa-angle-up"></span>

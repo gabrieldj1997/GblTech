@@ -10987,6 +10987,13 @@ a.text-dark:focus {
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'FugazOne';
+  src: url("../fonts/FugazOne-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
 .fa {
   display: inline-block;
   font: normal normal normal 14px/1 FontAwesome;
@@ -14291,6 +14298,7 @@ a.navbar-brand span.fa {
   font-size: 9em;
   font-weight: 900;
   color: rgba(255, 255, 255, 0.2);
+  font-family: fantasy;
 }
 
 .ms--titles {
@@ -14357,9 +14365,16 @@ a.navbar-brand span.fa {
 }
 
 .ms--titles .ms-slide h3 {
+  font-family: 'FugazOne';
   font-size: 1.5em !important;
   font-weight: 800;
   margin: 0;
+  background: linear-gradient( 
+    315deg, #17259e, #4060c1);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -webkit-text-stroke: #44def2;
+        -webkit-text-stroke-width: 0.1PX;
 }
 
 .ms--links {
@@ -14465,7 +14480,7 @@ a.navbar-brand span.fa {
 
 .pagination__button:after {
   height: 3px;
-  background-color: #393e46;
+  background-color: #00a1ff;
   opacity: 0;
   transition: 0.5s opacity;
 }
@@ -15095,7 +15110,7 @@ a {
 .w3l-blog h3 {
   font-size: 35px;
   line-height: 40px;
-  color: #232527;
+  color: #BDBDBD;
   margin: 0;
   font-weight: 600;
 }

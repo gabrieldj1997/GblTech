@@ -1,57 +1,16 @@
-
 <!doctype html>
 <html lang="en">
 
 <head>
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <title>Eccentric portfolio - personal website template | About : W3layouts</title>
-
-
-    <link href="https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap" rel="stylesheet">
-
-
-    <link rel="stylesheet" href="assets/css/style-starter.css">
+    @include('layout.structure.head', ['title' => 'Sobre'])
 
 </head>
 
 <body>
 
-    <div class="inner-banner">
-        <div class="w3l-header inner-w3l-header" id="home">
-            <div class="container">
-                <nav class="navbar navbar-expand-lg navbar-dark pl-0 pr-0">
-                    <a class="navbar-brand m-0 text-primary" href="/"><span class="fa fa-gamepad"></span>
-                        Eccentric
-                    </a>
+@includeIf('..\layout.structure.header', ["text" => " Sobre Gabriel", "position" => false])
 
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav ml-auto">
-                            <li class="nav-item mr-lg-4">
-                                <a class="nav-link pl-0 pr-0 font-weight-bold" href="/">Home <span
-                                        class="sr-only">(current)</span></a>
-                            </li>
-                            <li class="nav-item mr-lg-4 active">
-                                <a class="nav-link pl-0 pr-0 font-weight-bold" href="/about">About</a>
-                            </li>
-                            <li class="nav-item mr-lg-4">
-                                <a class="nav-link pl-0 pr-0 font-weight-bold" href="/services">Services</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link pl-0 pr-0 font-weight-bold" href="/contact">Contact</a>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
-            </div>
-        </div>
-    </div>
 
     <div class="w3l-about py-5">
         <div class="container py-lg-3">
@@ -63,44 +22,18 @@
                     </div>
                 </div>
                 <div class="col-lg-6 info pl-lg-5 mt-lg-0 mt-5 pt-lg-0 pt-3 align-center">
-                    <h4 class="">I’m Alexander Lihiliho</h4>
-                    <p class="mt-md-4 mt-3 mb-0"> A Web Developer based in London.
-                        I specialize in Branding and Strategy, and am passionate about creating Awesome Portfolio work.
+                    <h4 class="">Eu sou o Gabriel da Costa</h4>
+                    <p class="mt-md-4 mt-3 mb-0"> Estou atuando na área como Analista de Sistema, sou um desenvolvedor web e mobile
+                        e atuo na região do DF e entorno. Me especializei no back-end e amo criar soluções e aplicações que automatiza
+                        o trabalho manual.
                     </p>
-                    <img src="assets/images/signature.png" class="img-fluid signature" width="300px" alt="my photo" />
-                    <p class="m-0 mb-2">Alexander Lihiliho</p>
-                    <h6>20/10/2000.</h6>
+                    <br/>
+                    <p class="m-0 mb-2">Gabriel da Costa</p>
+                    <h6>08/02/1997</h6>
                 </div>
             </div>
         </div>
     </div>
-
-    <section class="w3l-stats py-lg-5 py-4" id="stats">
-        <div class="gallery-inner container py-md-5 py-4">
-            <div class="row stats-con text-white">
-                <div class="col-sm-3 col-6 stats_info counter_grid">
-                    <span class="fa fa-lightbulb-o"></span>
-                    <p class="counter">645</p>
-                    <h4>Projects Done</h4>
-                </div>
-                <div class="col-sm-3 col-6 stats_info counter_grid1">
-                    <span class="fa fa-heart"></span>
-                    <p class="counter">563</p>
-                    <h4>Satisfied Clients</h4>
-                </div>
-                <div class="col-sm-3 col-6 stats_info counter_grid mt-sm-0 mt-5">
-                    <span class="fa fa-magic"></span>
-                    <p class="counter">1145</p>
-                    <h4>Awards</h4>
-                </div>
-                <div class="col-sm-3 col-6 stats_info counter_grid2 mt-sm-0 mt-5">
-                    <span class="fa fa-smile-o"></span>
-                    <p class="counter">1045</p>
-                    <h4>Happy Clients</h4>
-                </div>
-            </div>
-        </div>
-    </section>
 
     <section class="w3l-about-bottom py-5" id="about">
         <div class="container py-lg-5 py-md-3">
@@ -131,31 +64,31 @@
             </div>
         </div>
     </section>
-  
+
     <div class="w3l-skills py-5" id="skills">
         <div class="container py-lg-5 py-md-3">
             <div class="modal-spa">
                 <div class="row skills">
                     <div class="col-lg-6 bar-grids bargrids-left">
-                        <h4> My Skills </h4>
-                        <h6>web design <span> 80% </span></h6>
+                        <h4> Minhas Skills </h4>
+                        <h6>Back-End (.NET, Laravel, Node) <span> 90% </span></h6>
                         <div class="progress">
-                            <div class="progress-bar progress-bar-striped active bg-primary" style="width: 80%">
+                            <div class="progress-bar progress-bar-striped active bg-primary" style="width: 90%">
                             </div>
                         </div>
-                        <h6>ui design & developer <span> 70% </span></h6>
+                        <h6>Banco (MySql, SqlServer, Oracel)<span> 70% </span></h6>
                         <div class="progress  w3-bar-grids">
                             <div class="progress-bar progress-bar-striped active" style="width: 70%">
                             </div>
                         </div>
-                        <h6>Javascript<span>90% </span></h6>
+                        <h6>Front-End (React, Bootstrap, Blade)<span>55% </span></h6>
                         <div class="progress  w3-bar-grids">
-                            <div class="progress-bar progress-bar-striped active" style="width: 90%">
+                            <div class="progress-bar progress-bar-striped active" style="width: 55%">
                             </div>
                         </div>
-                        <h6>Photoshop <span> 75% </span></h6>
+                        <h6>Sistemas Operacionais<span> 60% </span></h6>
                         <div class="progress  w3-bar-grids prgs-w3-last">
-                            <div class="progress-bar progress-bar-striped active" style="width: 75%">
+                            <div class="progress-bar progress-bar-striped active" style="width: 60%">
                             </div>
                         </div>
                     </div>
@@ -192,7 +125,7 @@
             </div>
         </div>
     </div>
-  
+
     <section class="w3l-block py-5">
         <div class="container py-lg-3">
             <h3 class="title mb-md-5 mb-4">Featured projects </h3>
@@ -201,8 +134,7 @@
                     <span class="image-block">
                         <div class="content-overlay"></div>
                         <a class="image-zoom" href="#img">
-                            <img src="assets/images/alexandra.jpg" class="img-fluid w3layouts agileits"
-                                alt="portfolio-img">
+                            <img src="assets/images/alexandra.jpg" class="img-fluid w3layouts agileits" alt="portfolio-img">
                             <div class="content-details fadeIn-bottom">
                                 <h3 class="content-title">This is a title</h3>
                                 <p class="content-text">This is a short description</p>
@@ -226,8 +158,7 @@
                     <span class="image-block">
                         <div class="content-overlay"></div>
                         <a class="image-zoom" href="#img">
-                            <img src="assets/images/alexandra.jpg" class="img-fluid w3layouts agileits"
-                                alt="portfolio-img">
+                            <img src="assets/images/alexandra.jpg" class="img-fluid w3layouts agileits" alt="portfolio-img">
                             <div class="content-details fadeIn-bottom">
                                 <h3 class="content-title">This is a title</h3>
                                 <p class="content-text">This is a short description</p>
@@ -248,8 +179,7 @@
                 <div class="footer-content">
                     <div class="row">
                         <div class="col-lg-8 footer-left">
-                            <p class="m-0">© Copyright 2020 Eccentric Portfolio. Design by <a
-                                    href="https://w3layouts.com">W3layouts</a></p>
+                            <p class="m-0">© Copyright 2020 Eccentric Portfolio. Design by <a href="https://w3layouts.com">W3layouts</a></p>
                         </div>
                         <div class="col-lg-4 footer-right text-lg-right text-center mt-lg-0 mt-3">
                             <ul class="social m-0 p-0">
@@ -264,13 +194,12 @@
             </div>
         </div>
     </section>
- 
+
     <button onclick="topFunction()" id="movetop" class="bg-primary" title="Go to top">
         <span class="fa fa-angle-up"></span>
     </button>
     <script>
-
-        window.onscroll = function () {
+        window.onscroll = function() {
             scrollFunction()
         };
 
@@ -288,12 +217,12 @@
             document.documentElement.scrollTop = 0;
         }
     </script>
-  
+
     <script src="assets/js/jquery-3.3.1.min.js"></script>
 
     <script>
-        $(function () {
-            $('.navbar-toggler').click(function () {
+        $(function() {
+            $('.navbar-toggler').click(function() {
                 $('body').toggleClass('noscroll');
             })
         });

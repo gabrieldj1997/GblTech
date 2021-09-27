@@ -42,19 +42,23 @@ function topFunction() {
 
 
 
-    var titles = [
-        'Empresa',
+    var pages = {
+        titles:['Empresa',
         'Sobre',
         'Serviços',
-        'Contato'
-    ];
+        'Contato'],
+        link:['/',
+        '/about',
+        '/services',
+        '/contact']
+    };
 
     var msTitles = new MomentumSlider({
         el: slidersContainer,
         cssClass: 'ms--titles',
         range: [0, 3],
         rangeContent: function (i) {
-            return '<h3>' + titles[i] + '</h3>';
+            return '<h3>' + pages.titles[i] + '</h3>';
         },
         vertical: true,
         reverse: true,
@@ -71,13 +75,13 @@ function topFunction() {
         el: slidersContainer,
         cssClass: 'ms--links',
         range: [0, 3],
-        rangeContent: function () {
-            return '<a href="/about" class="ms-slide__link btn">View More</a>';
+        rangeContent: function (i) {
+            return '<a href="'+ pages.link[i] +'" class="ms-slide__link btn">View More</a>';
         },
         vertical: true,
         interactive: false
     });
-
+    console.log()
 
 
     var pagination = document.querySelector('.pagination');
