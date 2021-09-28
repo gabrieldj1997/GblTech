@@ -10758,6 +10758,7 @@ button.bg-dark:focus {
 }
 
 .text-primary {
+  font-family: Spacetime;
   color: #29a19c !important;
 }
 
@@ -10971,27 +10972,6 @@ a.text-dark:focus {
     color: inherit;
     border-color: #dee2e6;
   }
-}
-
-/*!
- *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
- *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
- */
-/* FONT PATH
- * -------------------------- */
-@font-face {
-  font-family: 'FontAwesome';
-  src: url("../fonts/fontawesome-webfont.eot?v=4.7.0");
-  src: url("../fonts/fontawesome-webfont.eot?#iefix&v=4.7.0") format("embedded-opentype"), url("../fonts/fontawesome-webfont.woff2?v=4.7.0") format("woff2"), url("../fonts/fontawesome-webfont.woff?v=4.7.0") format("woff"), url("../fonts/fontawesome-webfont.ttf?v=4.7.0") format("truetype"), url("../fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'FugazOne';
-  src: url("../fonts/FugazOne-Regular.ttf");
-  font-weight: normal;
-  font-style: normal;
 }
 
 .fa {
@@ -14160,7 +14140,6 @@ li.active a.nav-link {
 
 a.navbar-brand {
   font-size: 35px;
-  font-weight: 600;
 }
 
 a.navbar-brand:hover {
@@ -14298,7 +14277,7 @@ a.navbar-brand span.fa {
   font-size: 9em;
   font-weight: 900;
   color: rgba(255, 255, 255, 0.2);
-  font-family: fantasy;
+  font-family: 'CollegiateBlack';
 }
 
 .ms--titles {
@@ -14365,16 +14344,13 @@ a.navbar-brand span.fa {
 }
 
 .ms--titles .ms-slide h3 {
-  font-family: 'FugazOne';
+  font-family: 'AndroidAssassin';
   font-size: 1.5em !important;
   font-weight: 800;
   margin: 0;
-  background: linear-gradient( 
-    315deg, #17259e, #4060c1);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        -webkit-text-stroke: #44def2;
-        -webkit-text-stroke-width: 0.1PX;
+  color: #14219f;
+  text-shadow: 0px 0px 22px #48d3e1;
+  font-weight: 100;
 }
 
 .ms--links {
@@ -14483,6 +14459,7 @@ a.navbar-brand span.fa {
   background-color: #00a1ff;
   opacity: 0;
   transition: 0.5s opacity;
+  box-shadow: 0px 0px 6px #48e0f5
 }
 
 .pagination__item--active .pagination__button:after {
@@ -14749,7 +14726,8 @@ a {
   }
 
   a.navbar-brand span.fa {
-    font-size: 35px;
+    font-size: 40px;
+    font-weight: 100;
   }
 
   .ms--images .ms-slide {

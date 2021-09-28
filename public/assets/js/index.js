@@ -45,7 +45,7 @@ function topFunction() {
     var pages = {
         titles:['Empresa',
         'Sobre',
-        'Serviços',
+        'Servicos',
         'Contato'],
         link:['/',
         '/about',

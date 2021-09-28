@@ -4,7 +4,7 @@
 
 <head>
 
-@include('layout.structure.head', ["title" => "GBL Tech - Serviços"])
+@include('layout.structure.head', ["title" => "GBL Tech - Servicos"])
 
 </head>
 

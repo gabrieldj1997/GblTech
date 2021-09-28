@@ -1,0 +1,68 @@
+@font-face {
+    font-family: 'Minecrafter';
+    src: url("../fonts/Minecrafter.Alt.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FontAwesome';
+    src: url("../fonts/fontawesome-webfont.eot?v=4.7.0");
+    src: url("../fonts/fontawesome-webfont.eot?#iefix&v=4.7.0") format("embedded-opentype"), url("../fonts/fontawesome-webfont.woff2?v=4.7.0") format("woff2"), url("../fonts/fontawesome-webfont.woff?v=4.7.0") format("woff"), url("../fonts/fontawesome-webfont.ttf?v=4.7.0") format("truetype"), url("../fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FugazOne';
+    src: url("../fonts/FugazOne-Regular.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open24';
+    src: url("../fonts/Open\ 24\ Display\ St.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'CollegiateBlack';
+    src: url("../fonts/CollegiateBlackFLF.ttf");
+}
+
+@font-face {
+    font-family: 'CollegiateInside';
+    src: url("../fonts/CollegiateInsideFLF.ttf");
+}
+
+@font-face {
+    font-family: 'CollegiateOutline';
+    src: url("../fonts/CollegiateOutlineFLF.ttf");
+}
+
+@font-face {
+    font-family: 'Collegiate';
+    src: url("../fonts/Collegiate.ttf");
+}
+
+@font-face {
+    font-family: 'CollegiateBorder';
+    src: url("../fonts/CollegiateBorderFLF.ttf");
+}
+
+@font-face {
+    font-family: 'AndroidAssassin';
+    src: url("../fonts/Android\ Assassin.ttf");
+}
+
+@font-face {
+    font-family: 'AndroidAssassinItalic';
+    src: url("../fonts/Android\ Assassin\ Italic.ttf");
+}
+
+@font-face {
+    font-family: 'Spacetime';
+    src: url("../fonts/Spacetime.ttf");
+}
