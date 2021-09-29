@@ -9,7 +9,7 @@
 
 <body>
 
-@includeIf('layout.structure.header', ["text" => " Sobre Gabriel", "position" => false])
+    @includeIf('layout.structure.header', ["text" => " Sobre  GBL Tech", "position" => false])
 
 
     <div class="w3l-about py-5">
@@ -22,14 +22,15 @@
                     </div>
                 </div>
                 <div class="col-lg-6 info pl-lg-5 mt-lg-0 mt-5 pt-lg-0 pt-3 align-center">
-                    <h4 class="">Eu sou o Gabriel da Costa</h4>
-                    <p class="mt-md-4 mt-3 mb-0"> Estou atuando na área como Analista de Sistema, sou um desenvolvedor web e mobile
-                        e atuo na região do DF e entorno. Me especializei no back-end e amo criar soluções e aplicações que automatiza
-                        o trabalho manual.
+                    <h4 class="">GBL Tech</h4>
+                    <p class="mt-md-4 mt-3 mb-0">
+                        Empresa criada com propósito de trazer inovações e facilidades para seu negócio.
+                        Queremos ajudar você a crescer e prestar um serviço digno de parceira, deixando a parte tecnológica para a GBL Tech
+                        e deixando você com mais tempo livre e sem preocupações.
                     </p>
-                    <br/>
-                    <p class="m-0 mb-2">Gabriel da Costa</p>
-                    <h6>08/02/1997</h6>
+                    <br />
+                    <p class="m-0 mb-2">GBL Tech</p>
+                    <h6>19/09/2021</h6>
                 </div>
             </div>
         </div>

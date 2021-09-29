@@ -10,25 +10,25 @@
 
 <body>
 
-    @include('layout.structure.header', ["text" => "Serviços", "position" => false])
+    @include('layout.structure.header', ["text" => "Servicos", "position" => false])
 
     <div class="w3-services py-5" id="services">
         <div class="container py-lg-3">
             <div class="title-section">
-                <h3 class="main-title-w3">Meus Serviços</h3>
+                <h3 class="main-title-w3">Nossos Serviços</h3>
                 <div class="title-line">
                 </div>
             </div>
             <div class="row w3-services-grids mt-lg-5 mt-4">
                 <div class="col-lg-5 w3-services-left-grid">
-                    <h4>O que eu faço?</h4>
-                    <p>Eu trago a solução para seus problemas para aplicação web ou mobile. Crio aplicação de tarefas automatizadas
+                    <h4>O que fazemos?</h4>
+                    <p>Nós na GBL levamos a solução para seus problemas para aplicação web ou mobile. Criamos aplicação de tarefas automatizadas
                         como tarefas repetidas por exemplo, nunca mais se preocupe em preencher uma tabela a mão, aplicativos que captura dados
-                        e os centraliza e cria gráficos automaticamente. Não se preocupe mais em deixar seus clientes esperando por uma resposta
-                        quando se pode ter um BOT para te auxiliar. Traga-me seu problema e eu lhe trago a solução!
+                        e os centraliza em um lugar só, podendo cria gráficos automaticamente. Não se preocupe mais em deixar seus clientes esperando por uma resposta
+                        quando se pode ter um BOT para te auxiliar. Traga-nos seu problema e eu lhe entregamos a solução!
                     </p>
                     <div class="more">
-                        <a href="#more" class="btn-primary btn primary-btn-style mt-lg-5 mt-4">Know more</a>
+                        <a href="#section-services" class="btn-primary btn primary-btn-style mt-lg-5 mt-4">Mostre-me mais</a>
                     </div>
                 </div>
                 <div class="col-lg-7 w3-services-right-grid mt-lg-0 mt-5 pl-lg-5">
@@ -170,7 +170,7 @@
         </div>
     </div>
 
-    <div class="w3l-services py-5">
+    <div class="w3l-services py-5" id="section-services">
         <div class="container principles-grids principles-grids1 py-lg-3">
             <div class="scrollbar -services-scroll">
                 <div class="row abt-btm pt-4">
