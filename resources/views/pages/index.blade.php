@@ -33,7 +33,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-8 content-left">
-						<h3>Eu sou um desenvolvedor e quero trazer facilidade e soluções que vão tornar sua empresa inovadora</h3>
+						<h3>Eu sou um desenvolvedor que quer trazer facilidade e soluções que vão tornar sua empresa inovadora</h3>
 						<p class="mb-0">Olá meu nome é Gabriel e quero apresentar soluções que irão transformar sua empresa e o seu jeito de trabalhar.
 							Soluções automatizadas para poupar seu tempo e integra-lo ao mundo digital, podendo assim captar mais clientes e também impressioná-los.
 							Em meio a pandemia que estamos vivendo o mundo digital nunca esteve tão presente, empresas que não pensam mais pelo lado digital estão

@@ -14214,7 +14214,6 @@ a.navbar-brand span.fa {
 .ms--images .ms-slide__image-container {
   width: 80%;
   height: 80%;
-  background-color: rgba(0, 0, 0, 0.3);
   overflow: hidden;
   border-radius: 8px;
 }

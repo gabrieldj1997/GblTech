@@ -104,7 +104,7 @@ function topFunction() {
         style: {
             '.ms-slide__image': {
                 transform: [{
-                    scale: [1.5, 1]
+                    scale: [1.5, 1.0]
                 }]
             }
         },
