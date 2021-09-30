@@ -14285,7 +14285,7 @@ a.navbar-brand span.fa {
 }
 
 .ms--titles.ms-container--vertical {
-  width: 400px;
+  width: 500px;
   height: 170px;
   max-height: 100%;
 }
@@ -14293,6 +14293,8 @@ a.navbar-brand span.fa {
 .ms--titles.ms-container--vertical .ms-track {
   flex-direction: column;
   top: calc(50% - 85px);
+  width: 100%;
+  align-items: center;
 }
 
 .ms--titles.ms-container--vertical.ms-container--reverse .ms-track {
@@ -14520,7 +14522,7 @@ a.navbar-brand span.fa {
   }
 
   .ms--titles {
-    left: calc(50% - 200px);
+    left: calc(40% - 200px);
     top: calc(50% - 135px);
     text-align: center;
   }
@@ -15380,7 +15382,13 @@ section.w3l-grid-quote h3 {
   opacity: .8;
   transition: all 20.5s ease-out 20s;
 }
-
+ #about{
+  background-image: url(/../assets/images/wallpaper-banner.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  text-align: center;
+ }
 
 .w3l-about .about-content h4 {
   font-size: 30px;

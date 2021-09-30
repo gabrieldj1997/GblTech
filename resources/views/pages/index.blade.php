@@ -35,12 +35,13 @@
 					<div class="col-lg-8 content-left">
 						<h3>Eu sou um desenvolvedor que quer trazer facilidade e soluções que vão tornar sua empresa inovadora</h3>
 						<p class="mb-0">Olá meu nome é Gabriel e quero apresentar soluções que irão transformar sua empresa e o seu jeito de trabalhar.
-							Soluções automatizadas para poupar seu tempo e integra-lo ao mundo digital, podendo assim captar mais clientes e também impressioná-los.
+							Para isso estou fundando a GBL Tech que terá uma equipe que trará soluções automatizadas para poupar seu tempo e integra-lo ao mundo 
+							digital, podendo assim captar mais clientes e também impressioná-los.
 							Em meio a pandemia que estamos vivendo o mundo digital nunca esteve tão presente, empresas que não pensam mais pelo lado digital estão
 							ficando para trás, para evitar isso temos que pensar em soluções web e mobile, para que você trabalhe com a maior perfomance e seja visto
 							por todos!
 						</p>
-						<a href="https://www.linkedin.com/in/gabrieldj1997/" class="primary-btn-style btn-primary btn mt-lg-5 mt-4">LinkedIn</a>
+						<a href="/about" class="primary-btn-style btn-primary btn mt-lg-5 mt-4">Saiba mais sobre a GBL</a>
 					</div>
 					<div class="col-lg-4 content-photo mt-lg-0 mt-sm-5 mb-md-0 mb-4">
 						<a href="#img"><img src="assets/images/myimage.jpg" class="img-fluid" alt="content-photo"></a>

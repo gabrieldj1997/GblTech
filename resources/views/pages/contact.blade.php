@@ -22,15 +22,15 @@
                         ou <a href="https://www.linkedin.com/in/gabrieldj1997/" class="text-primary">linkedin</a>.
                     </h3>
                 </div>
-                <form action="https://sendmail.w3layouts.com/submitForm" method="post" class="">
+                <form action="#" method="#" class="form-cadaster">
                     <div class="main-input">
-                        <input type="text" name="w3lName" placeholder="Enter your name" class="contact-input" required="" />
-                        <input type="email" name="w3lSender" placeholder="Enter your mail" class="contact-input" required="" />
-                        <input type="number" name="w3lPhone" placeholder="Your phone number" class="contact-input" required="" />
-                        <textarea class="contact-textarea contact-input" name="w3lMessage" placeholder="Enter your message" required=""></textarea>
+                        <input type="text" name="w3lName" placeholder="Digite seu nome" class="contact-input" required="" />
+                        <input type="email" name="w3lSender" placeholder="Digite seu Email" class="contact-input" required="" />
+                        <input type="number" name="w3lPhone" placeholder="Digite seu número" class="contact-input" required="" />
+                        <textarea class="contact-textarea contact-input" name="w3lMessage" placeholder="Digite sua mensagem" required=""></textarea>
                     </div>
                     <div class="text-right">
-                        <button class="btn-primary btn primary-btn-style">Send</button>
+                        <button class="btn-primary btn primary-btn-style">Enviar</button>
                     </div>
                 </form>
             </div>
