@@ -3,6 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
+  <link rel="icon" href="{{ asset('assets/images/icon.png') }}">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
@@ -11,6 +12,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.2.0/css/datepicker.min.css" rel="stylesheet">
   <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+  <link rel="stylesheet" href="{{ asset('assets/conectividade/css/style.css') }}">
   <link rel="stylesheet" href="{{ asset('assets/conectividade/css/style-mapa.css') }}">
   <title>+Conectividade</title>
 </head>
@@ -27,7 +29,7 @@
           <div class="card-body text-dark ">
             <h5 class="card-title">Conheça nossa platafora +Conectividade</h5>
             <hr />
-            <p class="card-text">Selecione um Estado e Municipio para ver a quantidade de beneficiados pelo Bolsa Família e Auxilio Emergencial!<br>Escolha o mês e selecione seu estado!<br><br>Veja sua situação referente ao <a href="/conectividade/public/consulta/bolsa">Bolsa Família</a> ou ao <a href="/conectividade/public/consulta/auxilio">Auxilio Emergencial</a> com simplicidade e praticidade!</p>
+            <p class="card-text">Selecione um Estado e Municipio para ver a quantidade de beneficiados pelo Bolsa Família e Auxilio Emergencial!<br>Escolha o mês e selecione seu estado!<br><br>Veja sua situação referente ao <a href="/conectividade/bolsa-familia">Bolsa Família</a> ou ao <a href="/conectividade/auxilio-emergencial">Auxilio Emergencial</a> com simplicidade e praticidade!</p>
           </div>
         </div>
       </div>

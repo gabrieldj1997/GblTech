@@ -14522,7 +14522,7 @@ a.navbar-brand span.fa {
   }
 
   .ms--titles {
-    left: calc(40% - 200px);
+    left: calc(40% - 215px);
     top: calc(50% - 135px);
     text-align: center;
   }
@@ -15448,12 +15448,6 @@ section.w3l-grid-quote h3 {
   }
 }
 
-@media (max-width: 568px) {
-  .w3l-about .image-block {
-    margin-right: 70px !important;
-  }
-}
-
 @media (max-width: 480px) {
   .w3l-about .about-content h4 {
     font-size: 22px;
@@ -15462,10 +15456,6 @@ section.w3l-grid-quote h3 {
 
   .w3l-about .image-block img.pos {
     max-width: 250px;
-  }
-
-  .w3l-about .image-block {
-    margin-right: 50px !important;
   }
 
   .w3l-about .image-block img.pos {

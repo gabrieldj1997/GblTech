@@ -17,8 +17,8 @@ class Service {
 
     public function __construct($urlBase, $chaveApi)
     {
-        $this->setUrlBase($urlBase);
-        $this->setChaveApi($chaveApi);
+        // $this->setUrlBase($urlBase);
+        // $this->setChaveApi($chaveApi);
     }
 
     protected function execute(){

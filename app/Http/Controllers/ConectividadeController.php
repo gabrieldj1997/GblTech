@@ -2,11 +2,17 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
-
 class ConectividadeController extends Controller
 {
     public function index(){
         return view('conectividade.pages.mapa');
+    }
+
+    public function auxilioEmergencial(){
+        return view('conectividade.pages.buscaAuxilio');
+    }
+
+    public function bolsaFamilia(){
+        return view('conectividade.pages.buscaBolsa');
     }
 }

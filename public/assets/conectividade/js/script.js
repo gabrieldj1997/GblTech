@@ -17,7 +17,7 @@ function bolsaMunicipioAjax(estado, codigoIbge, anoMes, pagina = 1) {
 	}
 
 	$.ajax({
-		url: "/conectividade/public/api/consulta/bolsa/municipio",
+		url: "/conectividade/api/v1/bolsa/municipio",
 		type: "get",
 		data: {
 			codigoIbge: codigoIbge,

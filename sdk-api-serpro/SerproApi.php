@@ -12,17 +12,20 @@ use org\gov\br\sdk\entity\request\BolsaCpfNisRequest;
 use org\gov\br\sdk\entity\request\BolsaMunicipioRequest;
 use org\gov\br\sdk\entity\request\BolsaParcelaSaqueNis;
 
-class SerproApi{
+class SerproApi
+{
 
     private $apiService;
 
-    public function __construct($url, $chave){
-        if(!isset($this->apiService)){
+    public function __construct($url, $chave)
+    {
+        if (!isset($this->apiService)) {
             $this->apiService = new ControllerAPI($url, $chave);
-        }    
+        }
     }
 
-    public function consultarBolsaCpfNis($anoMesCompetencia, $anoMesReferencia, $codigo, $pagina){
+    public function consultarBolsaCpfNis($anoMesCompetencia, $anoMesReferencia, $codigo, $pagina)
+    {
         $bolsaCpfNis = new BolsaCpfNisRequest();
         $bolsaCpfNis->setAnoMesCompetencia($anoMesCompetencia);
         $bolsaCpfNis->setAnoMesReferencia($anoMesReferencia);
@@ -33,7 +36,9 @@ class SerproApi{
         return $response;
     }
 
-    public function consultarBolsaMunicipio($codigoIbge, $mesAno, $pagina){
+    public function consultarBolsaMunicipio($codigoIbge, $mesAno, $pagina)
+    {
+        return 'teste';
         $bolsaMunicipio = new BolsaMunicipioRequest();
         $bolsaMunicipio->setCodigoIbge($codigoIbge);
         $bolsaMunicipio->setMesAno($mesAno);
@@ -43,7 +48,8 @@ class SerproApi{
         return $response;
     }
 
-    public function consultarBolsaParcelaSacadaNis($anoMesCompetencia, $anoMesReferencia, $nis, $pagina){
+    public function consultarBolsaParcelaSacadaNis($anoMesCompetencia, $anoMesReferencia, $nis, $pagina)
+    {
         $bolsaParcelaSacadaNis = new BolsaParcelaSaqueNis();
         $bolsaParcelaSacadaNis->setAnoMesCompetencia($anoMesCompetencia);
         $bolsaParcelaSacadaNis->setAnoMesCompetencia($anoMesReferencia);
@@ -54,7 +60,8 @@ class SerproApi{
         return $response;
     }
 
-    public function consultarAuxilioBeneficiarioMunicipio($codigoIbge, $mesAno, $pagina){
+    public function consultarAuxilioBeneficiarioMunicipio($codigoIbge, $mesAno, $pagina)
+    {
         $auxilioBeneficiarioMunicipio = new AuxilioBeneficiarioMunicipioRequest();
         $auxilioBeneficiarioMunicipio->setCodigoIbge($codigoIbge);
         $auxilioBeneficiarioMunicipio->setCodigoIbge($mesAno);
@@ -64,7 +71,8 @@ class SerproApi{
         return $response;
     }
 
-    public function consultarAuxilioCpfNis($codigoBenifeciario, $codigoResponsavelFamiliar, $pagina){
+    public function consultarAuxilioCpfNis($codigoBenifeciario, $codigoResponsavelFamiliar, $pagina)
+    {
         $auxilioNisRequest = new AuxilioNisRequest();
         $auxilioNisRequest->setCodigoBenifeciario($codigoBenifeciario);
         $auxilioNisRequest->setCodigoResponsavelFamiliar($codigoResponsavelFamiliar);
@@ -74,7 +82,8 @@ class SerproApi{
         return $response;
     }
 
-    public function consultarAuxilioMunicipio($codigoIbge, $mesAno, $pagina){
+    public function consultarAuxilioMunicipio($codigoIbge, $mesAno, $pagina)
+    {
         $auxilioMunicipioRequest = new AuxilioMunicipioRequest();
         $auxilioMunicipioRequest->setCodigoIbge($codigoIbge);
         $auxilioMunicipioRequest->setMesAno($mesAno);
@@ -84,7 +93,8 @@ class SerproApi{
         return $response;
     }
 
-    public function teste(){
-        echo(dirname(__FILE__));
+    public function teste()
+    {
+        echo (dirname(__FILE__));
     }
 }

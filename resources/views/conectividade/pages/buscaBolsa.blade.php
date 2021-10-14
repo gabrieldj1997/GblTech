@@ -8,14 +8,14 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.2.0/js/bootstrap-datepicker.min.js"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.2.0/css/datepicker.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="../../views/style/style-busca.css">
+    <link rel="stylesheet" href="{{ asset('assets/conectividade/css/style-busca.css') }}">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>+Conectividade</title>
 </head>
 
 <body>
 
-    <?php include_once 'header.php' ?>
+@include('conectividade.layout.structure.header')
 
     <div class="container">
         <div class="row">
@@ -51,11 +51,11 @@
         <div class="loader"></div>
     </div>
 
-    <?php include_once 'footer.php' ?>
+    @include('conectividade.layout.structure.footer')
 
 </body>
 
-<script src="../../scripts/script.js"></script>
+<script src="{{ asset('assets/conectividade/js/script.js') }}"></script>
 
 <script>
     $("#datepicker").datepicker({
