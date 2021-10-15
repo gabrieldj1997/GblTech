@@ -25,8 +25,8 @@ function bolsaMunicipioAjax(estado, codigoIbge, anoMes, pagina = 1) {
 			pagina: pagina
 		},
 		success: function (response) {
+			debugger
 			try {
-				response = JSON.parse(response)
 				if (response[0] != null) {
 					$('#info-state span').html('')
 					anoMes = response[0].dataReferencia.split('-')

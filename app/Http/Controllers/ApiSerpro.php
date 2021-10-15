@@ -16,8 +16,8 @@ class ApiSerpro extends Controller
             $mesAno = $req->query('mesAno');
             $pagina = $req->query('pagina');
             $apiSerpro = new SerproApi('http://api.portaldatransparencia.gov.br/api-de-dados', "ee62f3ebb1156b63a3fe831a8a4cbbba");
-            // $result = $apiSerpro->consultarBolsaMunicipio($codigoIbge, $mesAno, $pagina);
-            // return $result;
+            $result = $apiSerpro->consultarBolsaMunicipio($codigoIbge, $mesAno, $pagina);
+            return $result;
             return 'ok';
         } catch (GlobalException  $e) {
 
