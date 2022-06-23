@@ -25,3 +25,6 @@ html,body {
 #info-state {
   display: none;
 }
+.row{
+  padding: 30px !important;
+}

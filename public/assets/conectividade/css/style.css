@@ -18,3 +18,9 @@ input::placeholder {
   text-indent: 1px;
   text-overflow: '';   
 }
+.cardMap{
+  margin-top:20px !important;
+  padding: 10px;
+  border-color:#0094d9 !important;
+  justify-content: space-evenly !important;
+}

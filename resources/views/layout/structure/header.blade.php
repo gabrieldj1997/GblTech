@@ -15,16 +15,16 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item mr-lg-4">
-                            <a class="nav-link pl-0 pr-0 font-weight-bold" href="/">Empresa</a>
+                            <a class="nav-link pl-0 pr-0 font-weight-bold" href="{{ url('')}}">Empresa</a>
                         </li>
                         <li class="nav-item mr-lg-4">
-                            <a class="nav-link pl-0 pr-0 font-weight-bold" href="/about">Sobre</a>
+                            <a class="nav-link pl-0 pr-0 font-weight-bold" href="{{ url('about')}}">Sobre</a>
                         </li>
                         <li class="nav-item mr-lg-4">
-                            <a class="nav-link pl-0 pr-0 font-weight-bold" href="/services">Serviços</a>
+                            <a class="nav-link pl-0 pr-0 font-weight-bold" href="{{ url('services')}}">Serviços</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link pl-0 pr-0 font-weight-bold" href="/contact">Contato</a>
+                            <a class="nav-link pl-0 pr-0 font-weight-bold" href="{{ url('contact')}}">Contato</a>
                         </li>
                     </ul>
                 </div>

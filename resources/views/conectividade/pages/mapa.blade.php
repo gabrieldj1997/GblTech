@@ -24,19 +24,17 @@
   <div class="container-body">
     <div class="row justify-content-around">
 
-      <div id="informacoes" class="col-xl-3 col-lg-5" align="center">
-        <div class="card custom-card shadow p-3 mb-5 bg-white rounded" style="max-width: 25rem; border-color: #0094d9;">
-          <div class="card-body text-dark ">
-            <h5 class="card-title">Conheça nossa platafora +Conectividade</h5>
+        <div class="card text-dark shadow bg-white rounded p-3 mb-5 cardMap col-xl-3 col-lg-5">
+ 
+            <h2 class="card-title">Conheça nossa plataforma +Conectividade</h5>
             <hr />
-            <p class="card-text">Selecione um Estado e Municipio para ver a quantidade de beneficiados pelo Bolsa Família e Auxilio Emergencial!<br>Escolha o mês e selecione seu estado!<br><br>Veja sua situação referente ao <a href="/conectividade/bolsa-familia">Bolsa Família</a> ou ao <a href="/conectividade/auxilio-emergencial">Auxilio Emergencial</a> com simplicidade e praticidade!</p>
-          </div>
-        </div>
-      </div>
+            <p class="card-text" style="font-size: x-large;">Selecione um Estado e Municipio para ver a quantidade de beneficiados pelo Bolsa Família e Auxilio Emergencial!<br>Escolha o mês e selecione seu estado!<br><br>Veja sua situação referente ao <a href="/conectividade/bolsa-familia">Bolsa Família</a> ou ao <a href="/conectividade/auxilio-emergencial">Auxilio Emergencial</a> com simplicidade e praticidade!</p>
 
-      <div div class="col-xl-3 col-lg-5">
+        </div>
+
+      <div class="col-xl-4 col-lg-5">
         <div id="mapa">
-          <svg id="map" x="0px" y="0px" align="center" width="450px" height="460px" xmlns="http://www.w3.org/2000/svg" version="1.1">
+          <svg id="map" x="0px" y="0px" align="center" viewBox="0 0 450 460" xmlns="http://www.w3.org/2000/svg" version="1.1">
             <g>
               <a href="#seleciona-data" id="state_to" class="state" data-state="Tocantins" cod-state="TO" xlink:href="">
                 <title>Tocantins</title>
@@ -436,11 +434,10 @@
         </div>
       </div>
 
-      <div id="seleciona-data" class="col-xl-3 col-lg-12 row justify-content-around" align="center">
+      <div id="seleciona-data" class="col-xl-3 col-lg-12 row justify-content-around">
 
-        <!--<div class="row">-->
 
-          <div class="card text-dark shadow bg-white rounded col-lg-5 col-xl-12" style="margin-top:20px;border-color:#0094d9;">
+          <div class="card text-dark shadow bg-white rounded col-lg-5 col-xl-12 cardMap">
             <div class="cardRegiao" align="center">
               <h3>Selecione a região e a data</h3>
               <hr>
@@ -458,13 +455,12 @@
             </div>
           </div>
 
-          <div id="info-state" class="card text-dark shadow col-lg-5 col-xl-12" style="margin-top:20px;border-color:#0094d9;">
+          <div id="info-state" class="card text-dark shadow bg-white rounded col-lg-5 col-xl-12 cardMap">
             <div id="info-state-title"></div>
             <div id="info-state-bolsa"></div>
             <div id="info-state-auxilio"></div>
           </div>
 
-        <!--</div>-->
 
       </div>
 
@@ -548,17 +544,6 @@
 
   window.onload = () => {
     montarSelectEstados()
-  }
-
-  window.onresize = event => {
-    width = $(event.currentTarget).width()
-    if (width > 1390) {
-      $('#map').attr('style', 'transform: scale(1)')
-    } else if (width > 1180) {
-      $('#map').attr('style', 'transform: scale(0.8)')
-    } else {
-      $('#map').attr('style', 'transform: scale(1)')
-    }
   }
 </script>
 
