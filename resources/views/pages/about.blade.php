@@ -116,7 +116,7 @@
                         <div class="modal-footer">
                             <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
                             <button type="button" class="btn btn-primary"><a
-                                    href="patuscada.gbltech.com.br">Abrir Projeto</a></button>
+                                    href="https://www.patuscada.gbltech.com.br">Abrir Projeto</a></button>
                         </div>
                     </div>
                 </div>
