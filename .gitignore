@@ -14,4 +14,4 @@ yarn-error.log
 /.idea
 /.vscode
 /SDK-bolsa-auxilio/vendor
-app/Http/Middleware/HttpsProtocol
+app/Http/Middleware/HttpsProtocol.php
