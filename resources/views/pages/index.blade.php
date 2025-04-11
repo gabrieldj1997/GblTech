@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 
-@include('layout.structure.head', ["title" => "GBL Tech - Inovações teste"])
+@include('layout.structure.head', ["title" => "GBL Tech - Inovações"])
 
 <body>
 
